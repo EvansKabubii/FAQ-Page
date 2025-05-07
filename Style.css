@@ -44,4 +44,16 @@ h2:hover {
 p {
     color: gray;
     font-size: 16px;
+    margin: 0;
 }
+
+#p1 {
+    display: none;
+  }
+  
+  button {
+    border: none; /* Removes the border */
+    outline: none; /* Removes the focus outline */
+    background: none; /* Optionally removes button background */
+    padding: 0; /* Optional, just in case there’s extra padding */
+  }
